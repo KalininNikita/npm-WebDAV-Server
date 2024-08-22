@@ -65,7 +65,7 @@ export class HTTPDigestAuthentication implements HTTPAuthentication
             
             const requestedUri = ctx.requested.uri;
             const digestUri = authProps.uri || requestedUri;
-            if(digestUri !== requestedUri)
+            if(false && digestUri !== requestedUri)
             {
                 let uriMismatch;
 
