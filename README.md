@@ -13,6 +13,8 @@
 
 # Description
 
+Continuation of the project https://github.com/OpenMarshal/npm-WebDAV-Server
+
 This server can use physical resources (files and folders on a hard drive, for instance), virtual resources (in-memory files and folders), processed/computed resources (for instance a file which provide the content of a remote web page), customized resources (whatever you created, whatever you can imagine), and use all of them on the same server instance. And it's easy to integrate in your JavaScript code!
 
 You can use it to provide human readable content, easily manageable thanks to the WebDAV clients, or use a temporary and virtual file system to share information between running programs, or store crypted documents while still being able to use them as if they were not crypted (take a look at [`cwdav`](https://www.npmjs.com/package/cwdav)), etc...

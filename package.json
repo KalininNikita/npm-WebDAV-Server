@@ -29,9 +29,9 @@
     "start-test": "node test/v2/root.js && node test/v1/root.js",
     "build-test": "cd test/v2/tests.ts && tsc"
   },
-  "name": "webdav-server",
+  "name": "webdav-server-continuation",
   "version": "2.6.2",
-  "author": "Adrien Castex <adrien.castex@protonmail.com>",
+  "author": "Adrien Castex <adrien.castex@protonmail.com>, Kalinin Nikita",
   "license": "Unlicense",
   "repository": {
     "type": "git",

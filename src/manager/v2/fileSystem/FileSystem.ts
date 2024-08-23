@@ -2029,7 +2029,7 @@ export abstract class FileSystem implements ISerializableFileSystem
                     const childPath = rootPath.getChildPath(name);
                     if(value.constructor === ResourceType || value.constructor === String || value.constructor === Buffer)
                     {
-                        this.addSubTree(ctx, childPath, value, cb)
+                        this.addSubTree(ctx, childPath, value as string, cb)
                     }
                     else
                     {
